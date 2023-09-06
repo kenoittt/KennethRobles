@@ -1,0 +1,272 @@
+@font-face {
+    font-family: 'akira_expandedsuper_bold';
+    src: url('akira_expanded_demo-webfont.woff2') format('woff2'),
+         url('akira_expanded_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aftikablack';
+    src: url('fontsfree-net-aftikablack-webfont.woff2') format('woff2'),
+         url('fontsfree-net-aftikablack-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aftikabold';
+    src: url('fontsfree-net-aftikabold-webfont.woff2') format('woff2'),
+         url('fontsfree-net-aftikabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aftikalight';
+    src: url('fontsfree-net-aftika-light-1-webfont.woff2') format('woff2'),
+         url('fontsfree-net-aftika-light-1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aftikaregular';
+    src: url('fontsfree-net-aftikaregular-webfont.woff2') format('woff2'),
+         url('fontsfree-net-aftikaregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aftikasemibold';
+    src: url('fontsfree-net-aftika-semibold-1-webfont.woff2') format('woff2'),
+         url('fontsfree-net-aftika-semibold-1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#plvlogo{
+    position: absolute;
+    top: 16px;
+    left: 27px;
+    width: 113px;
+    height: auto;
+    z-index: 4;
+}
+
+.navoverlay{
+    position: absolute;
+    background-color: #081D81;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 1920px;
+    height: 140px;
+    z-index: 3;
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#section1{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+nav ul{
+    position: absolute;
+    margin: 51px 17px 0 0;
+    right: 0;
+    z-index: 4;
+}
+
+nav > ul > li{
+    font-family: 'aftikasemibold';
+    font-size: 24px;
+    color: white;
+    list-style-type: none;
+    text-transform: uppercase;
+    padding-left: 63px;
+    padding-right: 63px;
+    float: left;
+}      
+
+#section2{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 200px;
+    z-index: 6;
+}
+#plvworld {
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    left: 30%;
+    top: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+#programsOffered {
+    position: absolute;
+    top: 300px;
+    font-family: 'aftikabold';
+    color: #081D81;
+    font-size: 45px;
+}
+#lbCollege {
+    position: relative;
+    top: 150px;
+    font-size: 26px;
+    margin:auto;
+    padding: 0;
+    border-style: solid;
+    border-radius: 18px;
+    border-color: #081d81
+}
+
+#college {
+    border-style: solid;
+    border-color: #1812d6;
+    background-color: #1812d6;
+    color: white;
+    font-size: 23px;
+    font-family: 'aftikabold';
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 0px;
+    text-indent: 20px;
+
+}
+
+#bachelorOpen {
+    border-style: solid;
+    border-color: #081d81;
+    background-color: #081d81;
+    color: white;
+    padding: 2px;
+    font-size: 26px;
+    font-family: 'aftikasemibold';
+    text-indent: 20px;
+    position: relative;
+
+}
+
+#bachelorClosed {
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 0px;
+    font-size: 26px;
+    font-family: 'aftikasemibold';
+    text-indent: 20px;
+    position: relative;
+
+}
+
+#description {
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    padding-right: 5%;
+    color: #081d81;
+    font-size: 25px;
+    font-family: 'aftikaregular';
+    line-height: 26px;
+    text-align: justify;
+}
+
+#sectionLinks{
+    position: relative;
+    height: 570px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+    background: white ;
+    border:solid;
+}
+
+
+#officelinks{
+    position: absolute;
+    text-align: left;
+    font-family: "aftikasemibold";
+    color: #081D81;
+    font-size: 25px;
+    top: 21%;
+    left: 10%;
+    line-height: 45px;
+}
+
+#fbIcon {
+    height:75px;
+    width:75px;
+    position:relative;
+    top:130px;
+    left:50px;
+}
+
+#plvAdmissionBold{
+    text-transform: uppercase;
+    font-family: "aftikabold";
+}
+
+#email{
+    text-transform: lowercase;
+}
+
+#emailIcon{
+    height:75px;
+    width:75px;
+    position:relative;
+    top:350px;
+    left:-30px;
+}
+
+#sectionfooter{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0px;
+    background: #081D81 ;
+    padding: 0px;
+    }
+    
+.centeredfooter{
+    position: absolute;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 43px;
+    color: white;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+       
+.centeredfooter2{
+    position: absolute;
+    text-align: center;
+    width: 70%;
+    font-family: "aftikaregular";
+    font-size: 27px;
+    color: white;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 55px;
+    }
+
